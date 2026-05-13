@@ -1,7 +1,7 @@
 /* ========== LAYOUT COMPONENTS ========== */
 
 import React, { ReactNode, useState } from 'react';
-import { Button, Avatar, Badge } from './02-components-ui';
+import { Button, Avatar, Badge } from '@/components/ui';
 
 // ==================== HEADER ====================
 interface HeaderProps {

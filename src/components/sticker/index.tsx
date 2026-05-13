@@ -1,7 +1,7 @@
 /* ========== STICKER COMPONENTS ========== */
 
 import React, { useState } from 'react';
-import { Modal, Button, Badge, Spinner } from './02-components-ui';
+import { Modal, Button, Badge, Spinner } from '@/components/ui';
 
 // ==================== STICKER CARD ====================
 interface StickerCardProps {

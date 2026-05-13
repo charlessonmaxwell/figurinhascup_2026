@@ -3,10 +3,10 @@
 import React, { useEffect, useState } from 'react';
 import {
   Header, Sidebar, PageHeader, Section, StatsCard, Grid, Layout
-} from './03-components-layout';
-import { Card, Button, Badge, Progress, Spinner, EmptyState } from './02-components-ui';
-import { useAuth, useCollection, useNotifications } from './05-hooks-custom';
-import { useUIStore } from './04-store-zustand';
+} from '@/components/layout';
+import { Card, Button, Badge, Progress, Spinner, EmptyState } from '@/components/ui';
+import { useAuth, useCollection, useNotifications } from '@/hooks';
+import { useUIStore } from '@/store/zustand';
 
 // ==================== DASHBOARD COMPONENT ====================
 export const Dashboard: React.FC = () => {

@@ -1,10 +1,10 @@
 /* ========== REPETIDAS, FALTANTES, PERFIL & NOTIFICAÇÕES PAGES ========== */
 
 import React, { useState } from 'react';
-import { Header, Sidebar, PageHeader, Section, Layout, StatsCard, Grid } from './03-components-layout';
-import { Button, Card, Input, Badge, Checkbox, Modal, Toast } from './02-components-ui';
-import { useAuth, useCollection, useNotifications } from './05-hooks-custom';
-import { useUIStore } from './04-store-zustand';
+import { Header, Sidebar, PageHeader, Section, Layout, StatsCard, Grid } from '@/components/layout';
+import { Button, Card, Input, Badge, Checkbox, Modal, Toast } from '@/components/ui';
+import { useAuth, useCollection, useNotifications } from '@/hooks';
+import { useUIStore } from '@/store/zustand';
 
 // ==================== REPETIDAS PAGE ====================
 export const Repetidas: React.FC = () => {

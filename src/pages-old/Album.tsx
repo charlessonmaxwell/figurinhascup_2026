@@ -1,11 +1,11 @@
 /* ========== MEU ÁLBUM PAGE ========== */
 
 import React, { useState, useMemo } from 'react';
-import { StickerCard, StickerGrid, StickerList } from './07-components-sticker';
-import { Header, Sidebar, PageHeader, Section, Layout, Grid } from './03-components-layout';
-import { Input, Select, Button, Badge } from './02-components-ui';
-import { useAuth, useCollection, useSearch, useSort } from './05-hooks-custom';
-import { useUIStore } from './04-store-zustand';
+import { StickerCard, StickerGrid, StickerList } from '@/components/sticker';
+import { Header, Sidebar, PageHeader, Section, Layout, Grid } from '@/components/layout';
+import { Input, Select, Button, Badge } from '@/components/ui';
+import { useAuth, useCollection, useSearch, useSort } from '@/hooks';
+import { useUIStore } from '@/store/zustand';
 
 const MOCK_STICKERS = [
   { ticker: 'BRA01', name: 'Alisson', flag: '🇧🇷', country: 'Brasil', position: 'Goleiro', tier: 'A' as const, price: 5.50, change: 2.3, quantity: 1, has: true, want: false, trade: false },
